@@ -9,6 +9,9 @@ module.exports = {
         'canary-black': '#101010',
         'canary-yellow': '#FFD034',
         'canary-orange': '#FF661F',
+      },
+      screens: {
+        '2xl': "1550px",
       }
     }
   },
