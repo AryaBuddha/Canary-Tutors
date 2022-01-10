@@ -32,7 +32,7 @@ const Hero = () => {
 
       <img
         src={heroImage}
-        className="md:max-w-6xl 2xl:max-w-7xl md:mt-[-3rem] 2xl:mt-[-5rem] z-[-1]"
+        className="md:max-w-5xl 2xl:max-w-7xl md:mt-[-3rem] 2xl:mt-[-5rem] z-[-1]"
       />
     </div>
   );
