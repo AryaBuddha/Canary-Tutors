@@ -12,6 +12,9 @@ module.exports = {
       },
       screens: {
         '2xl': "1550px",
+      },
+      fontSize: {
+        'smmd': '0.9rem',
       }
     }
   },
