@@ -164,6 +164,34 @@ const Features = () => {
           </div>
         </div>
       </section>
+      <section className="mb-16 flex flex-col">
+        <div className="self-center flex flex-col items-center w-full max-w-screen md:w-[95%] md:justify-around ">
+          <h1
+            style={{
+              fontFamily: "Mulish, sans-serif",
+              fontWeight: "700",
+              fontSize: "2.5rem",
+              fontStyle: "bold",
+            }}
+            className="mb-5 text-center md:text-left"
+          >
+            What are you waiting for?
+          </h1>
+          <p className="2xl:text-[1.2rem] mb-5">
+            Sign up today and get 50% off your first session.
+          </p>
+          <button
+            className="rounded-lg border-2 w-36 h-12 bg-secondary-blue text-white font-bold hover:bg-blue-500 hover:w-[9.2rem]"
+            onClick={() => {
+              window.open(
+                "https://docs.google.com/forms/d/e/1FAIpQLSd26k7fjXa_b1CV1YrX0SHSWomfmmfVjUYV2cJ00dLK03BY-Q/viewform?usp=sf_link"
+              );
+            }}
+          >
+            Get Started {">"}
+          </button>
+        </div>
+      </section>
     </>
   );
 };

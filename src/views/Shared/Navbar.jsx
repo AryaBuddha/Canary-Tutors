@@ -22,7 +22,7 @@ const Navbar = () => {
             Canary Tutors
           </h1>
         </div>
-        <div className="hidden md:inline">
+        <div className="hidden md:hidden">
           <h1 className="text-canary-black">Hello</h1>
         </div>
       </div>

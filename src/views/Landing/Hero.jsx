@@ -25,7 +25,14 @@ const Hero = () => {
           Find tutors from your own community that are willing to help.
         </p>
         <div className="h-7 md:h-10"></div>
-        <button className="rounded-lg border-2 w-36 h-12 bg-secondary-blue text-white font-bold hover:bg-blue-500 hover:w-[9.2rem]">
+        <button
+          className="rounded-lg border-2 w-36 h-12 bg-secondary-blue text-white font-bold hover:bg-blue-500 hover:w-[9.2rem]"
+          onClick={() => {
+            window.open(
+              "https://docs.google.com/forms/d/e/1FAIpQLSd26k7fjXa_b1CV1YrX0SHSWomfmmfVjUYV2cJ00dLK03BY-Q/viewform?usp=sf_link"
+            );
+          }}
+        >
           Get Started {">"}
         </button>
       </div>
